@@ -6,8 +6,11 @@ using namespace std;
 
 
 
-void enc_algorithm0(int enc_array[]){
-
+void enc_algorithm0(vector<int> enc_array){
+    for (int i=0; i<enc_array.size(); i++)
+    {
+        enc_array[i] += 2;
+    }
 } 
 
 void enc_algorithm1(int enc_array[]){
