@@ -15,10 +15,8 @@ int main(){
 
   vector<long int> enc_array; 
   //decode_script(message_encrypted,enc_array);
-  
-  
 
-  //DENCRYPT(enc_array,enc_key);
+  DECRYPT(enc_array,enc_key);
 
   cout<<ASCII_DECODE(enc_array);
 

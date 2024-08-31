@@ -16,8 +16,7 @@ int main()
 
   vector<long int> enc_array;
   ASCII_ENCODE(message_unencrypted, enc_array);
-
-  // ENCRYPT(enc_array,enc_key);
+  ENCRYPT(enc_array,enc_key);
 
   // encode_script(enc_array);
 }
